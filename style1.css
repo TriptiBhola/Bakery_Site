@@ -1,0 +1,655 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+nav {
+    float: left;
+}
+
+.para {
+    position: relative;
+}
+
+/* .img-fluid {
+    max-width: 100%;
+    height: 100vh;
+} */
+
+.heading {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    text-transform: uppercase;
+}
+
+.heading h3 {
+    font-size: 25px;
+}
+
+.heading h1 {
+    font-size: 95px;
+}
+
+.row {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+}
+
+.box1 {
+    font-display: bold;
+    text-transform: capitalize;
+}
+
+p {
+    font-size: small;
+}
+
+.baking {
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.bake {
+    font-size: 75px;
+}
+
+.im1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.im1 img {
+    height: 35px;
+    width: 35px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 2%;
+    height: 35vh;
+}
+
+.fresh {
+    padding-left: 15px;
+    text-transform: capitalize;
+    width: 200px;
+    height: 100px;
+
+}
+
+.fresh h2 {
+    font-size: 20px;
+}
+
+.fresh p {
+    font-size: 10px;
+}
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 2%;
+    height: 35vh;
+}
+
+.fresh1 {
+    padding-left: 15px;
+    text-transform: capitalize;
+    width: 200px;
+    height: 100px;
+
+
+
+}
+
+.fresh1 h2 {
+    font-size: 20px;
+}
+
+.fresh1 p {
+    font-size: 10px;
+}
+
+
+.freshbread {
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    text-transform: capitalize;
+    color: rgb(255, 255, 255);
+}
+
+.bt {
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    margin-left: 8%;
+    background-color: black;
+    border-color: aliceblue;
+    border-radius: 35px;
+    padding: 20px;
+}
+.baki{
+    font-size: 75px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.card-img-top {
+    border: 5px solid white;
+    border-radius: 35px;
+    padding: 20px;
+    width: 300px;
+    margin-top: 2%;
+
+}
+
+.card {
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: -4px;
+    border: 4px solid black;
+}
+
+.banner2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 2%;
+}
+
+.banner3 {
+    background-color: rgba(230, 229, 229, 0.911);
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 5%;
+    justify-content: space-evenly;
+    height: 100vh;
+}
+
+.imgfar {
+    margin-left: 5%;
+}
+.imgfar img{
+    height: 500px;
+    width: 400px;
+}
+.quality {
+    text-transform: capitalize;
+    font-size: 70px;
+    font-weight: bold;
+
+    border: 0px solid black;
+    width: 35%;
+    padding-top: 20px;
+}
+
+.quality img {
+    width: 400px;
+    height: 450px;
+}
+
+.par {
+    margin-top: 15%;
+    text-align: justify;
+    margin-left: 9%;
+    margin-right: 7%;
+}
+
+.sd p {
+    font-size: 20px;
+}
+
+.hd {
+    margin-top: 25px;
+    text-transform: capitalize;
+}
+
+button {
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    border-radius: 50%;
+    padding: 10px;
+    width: 150px;
+}
+
+.hh {
+    margin-top: 80px;
+}
+
+.jj {
+    margin-top: 40px;
+}
+
+.kk {
+    margin-bottom: 80px;
+}
+
+.banner4 {
+    position: relative;
+    margin-top: 2%;
+        width: 100%;
+        height: 100vh;
+    
+}
+
+.list {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    top: 50%;
+    text-transform: capitalize;
+    border: 0px solid white;
+    left: 10%;
+
+
+}
+
+.sweet {
+    position: absolute;
+    top: 10%;
+    left: 35%;
+   
+    color: aliceblue;
+    text-transform: capitalize;
+}
+.sweet h1{
+    font-size: 75px;
+}
+/* .sweetlist1 h3{
+    font-size: 15px;
+}
+.sweetlist1 li{
+    font-size: 15px;
+} */
+
+.sweetlist1 {
+    width: 300px;
+    background-color: rgb(245, 245, 245);
+    height: 250px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 2px solid rgb(228, 242, 194);
+    color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10%;
+}
+
+
+.pg4img{
+    position: relative;
+    width:100%; 
+    height:100vh;
+    margin-top: 30% ;
+}
+.pg4{
+    position: absolute;
+    top: 36px;
+    text-align: center;
+    text-transform: capitalize;
+    width: 100%;
+
+}
+
+
+.pg4img img {
+    margin-left: 25%;
+    width:70%; 
+    height:70vh;
+    margin-top:15%;
+}
+
+.pg5 {
+    position: relative;
+}
+
+.para5 {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    text-transform: capitalize;
+    color: aliceblue;
+    border: 3px solid rgba(0, 0, 0, 0.457)k;
+    background-color: rgba(0, 0, 0, 0.457);
+    padding: 3%;
+    border-radius: 15px;
+
+}
+
+@media only screen and (max-width:600px) and (min-width:320px) {
+    .heading {
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        text-transform: uppercase;
+    }
+
+    .heading h3 {
+        font-size: 14px;
+    }
+
+    .heading h1 {
+        font-size: 20px;
+    }
+
+    .row {
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        margin-top: 0px;
+    }
+
+    .box1 {
+        font-display: bold;
+        text-transform: capitalize;
+    }
+
+    p {
+        font-size: 10px;
+    }
+
+    .img-fluid {
+        max-width: 100%;
+        height: 100vh;
+    }
+
+    .baking {
+        font-size: 25px;
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 2%;
+        height: 35vh;
+        width: 100%;
+    }
+
+    .fresh {
+        padding-left: 15px;
+        text-transform: capitalize;
+        width: 200px;
+        height: 100px;
+
+
+
+    }
+
+    .fresh h2 {
+        font-size: 15px;
+    }
+
+    .fresh p {
+        font-size: 10px;
+    }
+
+    .container2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 40%;
+        height: 70vh;
+        width: 100%;
+    }
+
+    .fresh1 {
+        padding-left: 15px;
+        text-transform: capitalize;
+        width: 200px;
+        height: 100px;
+
+
+
+    }
+
+    .fresh1 h2 {
+        font-size: 15px;
+    }
+
+    .fresh1 p {
+        font-size: 10px;
+    }
+
+    .freshbread {
+        position: absolute;
+        top: 10%;
+        left: 57%;
+        text-transform: capitalize;
+        color: rgb(255, 255, 255);
+    }
+
+    .ban2{
+        height: 50vh;
+        width: 100%;
+    }
+    .freshbread h1 {
+        font-size: 15px;
+    }
+
+    .freshbread p {
+        font-size: 10px;
+    }
+
+    .bt {
+        position: absolute;
+        top: 75%;
+        left: 55%;
+        text-transform: uppercase;
+        color: rgb(255, 255, 255);
+        margin-left: 7%;
+        background-color: black;
+        border-color: aliceblue;
+        border-radius: 35px;
+        padding: 10px;
+        font-size: 10px;
+        height: 50px;
+        width: 100px;
+    }
+    .baki{
+        font-size: 75px;
+        text-transform: capitalize;
+        text-align: center;
+    }
+    .card-img-top {
+        border: 5px solid white;
+        border-radius: 35px;
+        padding: 20px;
+        width: 300px;
+        margin-top: 2%;
+    
+    }
+    
+    .card {
+        text-transform: capitalize;
+        text-align: center;
+        padding-top: -4px;
+        border: 4px solid black;
+    }
+    
+    .banner2 {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 2%;
+    }
+    
+.banner3 {
+    background-color: rgba(230, 229, 229, 0.911);
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 5%;
+    justify-content: space-evenly;
+    height: 100vh;
+    width: 100%;
+}
+
+.imgfar {
+    top: 10%;
+    margin-left: 50%;
+    width: 100%;
+}
+.imgfar img{
+    height: 140px;
+    width: 140px;
+}
+
+
+.quality {
+    text-transform: capitalize;
+    font-size: 70px;
+    font-weight: bold;
+    border: 0px solid black;
+    width: 100%;
+    padding-top: 20px;
+}
+.quality h1{
+    font-size: 20px;
+}
+
+.quality img {
+    width: 140px;
+    height: 140px;
+}
+
+.par {
+    margin-top: 15%;
+    text-align: justify;
+    margin-left: 9%;
+    margin-right: 7%;
+}
+
+.sd p {
+    font-size: 20px;
+}
+
+.hd {
+    margin-top: 25px;
+    text-transform: capitalize;
+}
+
+button {
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    border-radius: 50%;
+    padding: 10px;
+    width: 150px;
+}
+
+.list {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    top: 7%;
+    text-transform: capitalize;
+    border: 0px solid white;
+    left: 7%;
+
+
+}
+.banner4{
+width: 100%;
+height: 100vh;
+}
+
+.sweet {
+    position: absolute;
+    top: 2%;
+    left: 35%;
+    font-size: 150%;
+    color: aliceblue;
+    text-transform: capitalize;
+}
+
+.sweetlist1 {
+    width: 145px;
+    background-color: rgb(245, 245, 245);
+    height: 138px;
+    padding: 0px;
+    /* margin-bottom: 20px; */
+    border: 2px solid rgb(228, 242, 194);
+    color: black;
+    /* margin-left: 20px;
+    margin-right: 20px; */
+    border-radius: 10%;
+    margin: 2px;
+    
+}
+.sweetlist1 h3{
+    font-size: 15px;
+}
+.sweetlist1 li{
+    font-size: 10px;
+}
+
+.sweet h1{
+    font-size: 20px;
+}
+
+.pg4img{
+    position: relative;
+    width:100%; 
+    height:75vh;
+    margin-top: 30% ;
+}
+.pg4{
+    position: absolute;
+    top: -80px;
+    text-align: center;
+    text-transform: capitalize;
+    width: 100%;
+    font-size: 10px;
+
+}
+.pg4 h1{
+    font-size:20px ;
+}
+
+
+.pg4img img {
+    margin-left: 25%;
+    width:70%; 
+    height:70vh;
+    margin-top:15%;
+}
+
+.pg5 {
+    position: relative;
+}
+
+.para5 {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    text-transform: capitalize;
+    color: aliceblue;
+    border: 3px solid rgba(0, 0, 0, 0.457)k;
+    background-color: rgba(0, 0, 0, 0.457);
+    padding: 3%;
+    border-radius: 15px;
+
+}
+
+.para5 h1{
+    font-size: 20px;
+}
+
+.para5 p{
+    font-size: 10px;
+}
+
+.para5 h3{
+    font-size: 20px;
+}
+
+}
